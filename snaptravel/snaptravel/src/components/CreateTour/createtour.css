@@ -1,0 +1,32 @@
+.create-form{
+    background-color:white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+    margin: auto;
+    margin-bottom: 1.2rem;
+    border-radius: 1.4rem;
+    width: 100%;
+}
+
+.form-row label{
+    color: rgb(0, 0, 0);
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-row input{
+    margin: 0px !important;
+    
+}
+
+.btn-createTour{
+    width: 10%;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    margin-top: 10px;
+    &:hover{
+        background-color: black;
+        color: white;
+        border-radius: 0.6rem;
+    }
+}

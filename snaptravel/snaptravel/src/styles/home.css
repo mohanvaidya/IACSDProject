@@ -1,0 +1,133 @@
+.home-section {
+    position: relative !important;
+    margin-top: 2rem !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.background {
+    height: 100% !important;
+}
+
+.bg {
+    width: 100% !important;
+    filter: brightness(60%) !important;
+}
+
+.content {
+    height: 100% !important;
+    width: 100%;
+    position: absolute !important;
+    top: 0;
+    z-index: 3;
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title {
+    color: white;
+}
+
+.tag {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+.title p {
+    text-align: center;
+    padding: 0 30vw;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.search {
+    display: flex !important;
+    background-color:#ffffff97;
+    padding: 0.5rem !important;
+    border-radius: 0.5rem !important;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+    margin: 1rem;
+}
+.search-tours{
+    display: flex !important;
+    background-color:#ffffff97;
+    padding: 0.5rem !important;
+    border-radius: 0.5rem !important;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.container-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1.5rem;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #1d1e53;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: black;
+
+    &[type="date"] {
+        padding-left: 3rem;
+    }
+
+    &::placeholder {
+        color: black;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.exp {
+    padding: 1rem !important;
+    cursor: pointer;
+    border-radius: 0.3rem !important;
+    border: none;
+    color: white;
+    background-color:rgba(0,0,0,0.7);
+    font-size: 1.1rem !important;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    
+    &:hover {
+        background-color: #000000;
+        color: white;
+        
+    }
+}
+.gal-text{
+    width: fit-content;
+    padding: 0 5px 0 5px;
+    border-radius: 0.4rem;
+    justify-content: center;
+
+    color: white;
+    background-color: rgba(9, 9, 9, 0.459);
+}
+.masonry__img {
+    transition: 0.3s;
+    
+    
+  }
+  
+  .masonry__img:hover {
+    transform: scale(0.9);
+    
+  }
+ 

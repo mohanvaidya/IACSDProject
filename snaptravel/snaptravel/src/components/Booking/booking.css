@@ -1,0 +1,15 @@
+.booking-form{
+    
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    border-radius: 1rem;
+}
+.describe{
+    
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    
+    margin-top: 10px;
+    width: 100%;
+    padding: 1rem;
+}
